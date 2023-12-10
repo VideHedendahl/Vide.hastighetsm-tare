@@ -72,7 +72,7 @@ void loop() {
       Serial.print("m/s");
       Serial.println();
  
-      updateOled(String(String(maxhastighet) + " s/m"));
+      updateOled(String(String(maxhastighet) + " m/s"));
   
     }
     else {
